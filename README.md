@@ -13,6 +13,7 @@ pip install -r requirements.txt
 ```
 
 Также вам необходимо будет настроить файл .env.
+- SECRET_KEY
 - POSTGRES_ENGINE
 - POSTGRES_DB
 - POSTGRES_USER
@@ -40,6 +41,7 @@ docker-compose up --build
 ```
 
 Файл .env
+- SECRET_KEY
 - POSTGRES_ENGINE=django.db.backends.postgresql_psycopg2
 - POSTGRES_DB=db
 - POSTGRES_USER=user
